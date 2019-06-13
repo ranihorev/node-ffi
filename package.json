@@ -27,7 +27,7 @@
     "debug": "4",
     "nan": "^2.13.2",
     "ref": "ranihorev/ref#node-12",
-    "ref-struct": "lxe/ref-struct#node-12"
+    "ref-struct": "ranihorev/ref-struct#node-12"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
