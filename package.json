@@ -1,5 +1,5 @@
 {
-  "name": "ffi",
+  "name": "@saleae/ffi",
   "version": "3.0.0",
   "license": "MIT",
   "author": "Rick Branson",
@@ -26,13 +26,13 @@
     "bindings": "~1.5.0",
     "debug": "4",
     "nan": "^2.13.2",
-    "ref": "ranihorev/ref#node-12",
-    "ref-struct": "ranihorev/ref-struct#node-12"
+    "ref": "@saleae/ref",
+    "ref-struct": "@saleae/ref-struct"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "mocha": "*",
-    "ref-array": "ranihorev/ref-array#node-12"
+    "ref-array": "@saleae/ref-array"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
