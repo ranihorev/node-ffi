@@ -1,6 +1,6 @@
 {
   "name": "@saleae/ffi",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "license": "MIT",
   "author": "Rick Branson",
   "contributors": [
@@ -26,13 +26,13 @@
     "bindings": "~1.5.0",
     "debug": "4",
     "nan": "^2.13.2",
-    "ref": "@saleae/ref",
-    "ref-struct": "@saleae/ref-struct"
+    "ref": "npm:@saleae/ref@^2.0.1",
+    "ref-struct": "npm:@saleae/ref-struct@^2.0.1"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "mocha": "*",
-    "ref-array": "@saleae/ref-array"
+    "ref-array": "npm:@saleae/ref-array@^2.0.1"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
